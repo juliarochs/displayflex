@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: black;
+}
+
+.NAV {
+    color: white;
+    padding: 4%;
+    font-family: "Quicksand", sans-serif;
+}
+
+.NAV-tit {
+    color: white;
+    padding: 4%;
+    font-family: "Quicksand", sans-serif;
+}
+
+.NAV:hover {
+    color: #df0e62;
+}
+
+header {
+    background-color: black;
+    width: 15%;
+    height: 100vh;
+    position: sticky;
+    padding: 30px;
+}
+
+svg {
+    height: 15px;
+    fill: white;
+}
+
+#icones {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 5%;
+}
+
+svg:hover {
+    fill: #df0e62;
+}
+
+section {
+    background-image: url(img_9.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#welcome {
+    font-size: 50px;
+    color: white;
+    margin: 8px;
+    font-weight: 500;
+    font-family: "oswald", arial, sans-serif;
+}
+
+.fundo {
+    backdrop-filter: brightness(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#lorem {
+    font-size: 25px;
+    font-family: "Quicksand", sans-serif;
+}
+
+button {
+    background-color: #df0e62;
+    border: none;
+    height: 53px;
+    width: 164px;
+    border-radius: 30px;
+    margin-top: 25px;
+    color: white;
+}
+
+#imagens {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotos {
+    overflow: hidden;
+    width: 33.33%;
+    height: 30vh;
+    position: relative;
+}
+
+.fotos img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    transition: 15;
+}
+
+.fotos:hover {
+    backdrop-filter: brightness(50%);
+}
+
+#espaço {
+    height: 50vh;
+    width: 100%;
+}
+
+#testimonial {
+    color: white;
+    margin-top: 90px;
+    text-align: center;
+    font-family: "oswald";
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+#imgpessoa img {
+    border-radius: 100%;
+    width: 145px;
+}
+
+#imgpessoa {
+    text-align: center;
+}
+
+#nome {
+    color: white;
+    text-align: center;
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#textopessoa {
+    color: gray;
+    text-align: center;
+    margin-top: 25px;
+    line-height: 25px;
+    margin-bottom: 200px;
+}
+
+.fotos svg {
+    fill: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: 15;
+}
+
+#imagens div:hover svg {
+    top: 50%;
+    opacity: 1;
+    transition: 2s;
+}
+
+#imagens div:hover img {
+    filter: brightness(50%);
+}
+
+#titulobio {
+    font-family: "Oswald";
+    font-size: 64px;
+    color: white;
+    height: 77px;
+    width: 100%;
+}
+
+#rosa {
+    background-color: #df0e62;
+    height: 4px;
+    width: 100px;
+}
+
+#biografia {
+    margin: 10%;
+}
+
+#pessoa img {
+    height: 257px;
+    width: 257px;
+    margin: 0;
+    margin-top: 75px;
+    margin-bottom: 35px;
+}
+
+#Hi {
+    color: white;
+    font-family: "Oswald";
+    font-size: 32px;
+}
+
+#txthi1 {
+    color: #808080;
+    font-size: 16px;
+    font-family: "QuickSand";
+}
+
+p {
+    justify-content: center;
+    line-height: 25px;
+    width: 800px;
+}
+
+#txthi2 {
+    color: #808080;
+    font-size: 16px;
+    font-family: "QuickSand";
+    margin-top: 15px;
+}
+
+#textocor {
+    color: #df0e62;
+    text-decoration: none;
+}
+
+#textocor:hover {
+    filter: brightness(50%);
+}
+
+#espaço2 {
+    background-color: #1a1a1a;
+    margin-top: 250px;
+    padding-bottom: 100px;
+}
+
+#teny {
+    color: white;
+    font-family: "Oswald";
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+#txt10y {
+    color: #808080;
+    font-size: 16px;
+    font-family: "QuickSand";
+    margin-top: 10px;
+    width: 800px;
+}
+
+#caixa {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+li {
+    position: relative;
+    list-style: none;
+    color: #808080;
+    line-height: 35px;
+    margin-right: 5px;
+}
+
+li::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -30px;
+    top: 0;
+    background-image: url(check-solid.svg);
+    background-repeat: no-repeat;
+}
+
+#bloginteiro {
+    display: flex;
+    justify-content: left;
+    height: 1800px;
+    flex-direction: column;
+}
+
+#imgg {
+    color: white;
+    display: flex;
+    margin-top: 60px;
+    margin-right: 150px;
+}
+
+#blogtit {
+    color: white;
+    font-family: "Oswald";
+    font-size: 64px;
+    height: 77px;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+#img1blog img {
+    width: 250px;
+    height: 200px;
+    margin-left: 100px;
+}
+
+#textoimg1 {
+    color: white;
+    font-family: "Oswald";
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#espaco3 {
+    color: #df0e62;
+    text-decoration: none;
+}
+
+.cortexto {
+    color: #808080;
+}
+
+#txtblog {
+    margin-bottom: 25px;
+}
+
+#textotodo {
+    margin-left: 35px;
+}
+
+#titulocontact{
+font-family: "Oswald";
+font-size: 64px;
+color: white;
+height: 77px;
+width: 100%;
+}
+
+#formulario{
+    height: 770px;
+    background-color: #1a1a1a;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 22%;
+    position: relative;
+    padding-top: 10px;
+    text-align: left;
+    color: white;
+}
+
+#formulario::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: #df0e62;
+    height: 4px;
+    width: 100px;
+}
+#biografia::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: #df0e62;
+    height: 4px;
+    width: 100px;
+}
+
+.name{
+    font-family: "Quicksand";
+    margin: 0;
+    width: 300px;
+    background-color: #1a1a1a;
+}
+.lastname{
+    font-family: "Quicksand";
+    margin: 0;
+    width: 300px;
+}
+.email{
+    font-family: "Quicksand";
+    margin: 0;
+    width: 600px; 
+    margin-top: 15px ;
+}
+.subject{
+    font-family: "Quicksand";
+    margin: 0;
+    width: 600px; 
+    margin-top: 15px;
+}
+.mesage{
+    font-family: "Quicksand";
+    margin: 0;
+    width: 600px; 
+    margin-top: 15px;
+}
+.espacomensage{
+    margin-top: 15px;
+}
+.imput1{
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+    width: 98.5%;
+    border-bottom: 2px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+.imput2{
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.imput3{
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.imput4{
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.form-control{
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+    background: none;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+textarea{
+background-color: #1a1a1a;
+width: 600px;
+height: 181px;
+border-bottom: 2px solid gray;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+}   
+
+.justificado{
+    display: flex;
+}
+.caixadetexto{
+    background-color: #1a1a1a;
+}
+#escrito{
+    color: #808080;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+#rodape{
+    background-color: #000;
+    height: 100px;
+    color: gray;
+    text-align: center;
+    margin-top: 65px;
+}
+#rodapefinal{
+    text-align: center;
+}
+
+.botao{
+    background-color: #df0e62;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 50pc ; 
+    margin: 0;
+    font-family: "Quicksand";
+    box-shadow: none;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+#center{
+   text-align: center;
+   padding-left: -20%;
+}
+#divbotao{
+    height: 150px;
+    background-color: #1a1a1a;
+}
+.botao:hover{
+filter: brightness(60%);}
+
+button{
+    border: 0;
+    
+}
+
+#contactit{
+    color: white;
+    font-family: "Oswald";
+    font-size: 64px;
+    height: 77px;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 70px;
+}
